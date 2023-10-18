@@ -8,3 +8,12 @@ And user enters the password <admin123> in the password text field
 And user clicks on the login button 
 
 
+Scenario: Verify the login functionality with invalid credentials
+
+Given user is on login page
+When user enters the username <admin> in the username text field 
+And user enters the password <admin123> in the password text field
+And user clicks on the login button 
+
+
+
